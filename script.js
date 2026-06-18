@@ -63,11 +63,11 @@ function generate() {
 
     // Rating (1–5 checkboxes)
     const ratingCell = document.createElement("td");
-    ratingCell.className = "habit-day-cell";
+    ratingCell.className = "schedule-day-cell";
 
     for (let r = 0; r < 5; r++) {
       const box = document.createElement("div");
-      box.className = "habit-checkbox";
+      box.className = "schedule-checkbox";
       box.style.marginRight = "6px";
       ratingCell.appendChild(box);
     }
